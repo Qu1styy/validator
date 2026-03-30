@@ -1,0 +1,23 @@
+{
+    "name": "qu1styy/validator",
+    "description": "Validation module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qu1styy",
+            "email": "ameserakov304@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "13.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\Validator\\": "src/Validator/",
+            "Validators\\": "src/Validators/"
+        }
+    }
+}
